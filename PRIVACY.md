@@ -7,7 +7,7 @@
 <h1>Privacy Policy</h1>
 <p><strong>Effective Date:</strong> February 28, 2026</p>
 <p>
-This Privacy Policy describes how the Valour Planet Joiner Bot (“the Bot”) handles information
+This Privacy Policy describes how the Valour Bot Planet Joiner handles information
 when operating within a Valour planet.
 </p>
 <hr>

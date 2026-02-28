@@ -5,7 +5,7 @@
 <h1>Valour Bot Planet Joiner</h1>
 
 <p>
-Valour Planet Joiner Bot is a minimal .NET 8 application that authenticates with the
+Valour Bot Planet Joiner is a minimal .NET 8 application that authenticates with the
 Valour.gg API using a <strong>bot token</strong> and joins a specified planet automatically.
 </p>
 
