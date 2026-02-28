@@ -51,8 +51,8 @@ configuration via a <code>.env</code> file.
 
 <h2>Installation</h2>
 
-<pre><code>git clone https://github.com/YOUR_USERNAME/ValourPlanetJoinerBot.git
-cd ValourPlanetJoinerBot
+<pre><code>git clone https://github.com/SkyJoshua/JoinPlanet.git
+cd JoinPlanet
 dotnet restore
 </code></pre>
 

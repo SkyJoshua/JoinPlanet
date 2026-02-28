@@ -29,8 +29,8 @@ Console.WriteLine($"Logged in as {client.Me.Name} (ID: {client.Me.Id})");
 
 
 
-long planetId = 000000000000000; //Put your planet id here. (Copy Id gives the id wrong, if you add +1 it should work. ex: 42439954653511680 -> 42439954653511681)
-string inviteCode = ""; //Place the invite code here. (If planet is Discoverable, this is not required.)
+long planetId = 00000000000000000; //Put your planet id here. (Copy Id gives the id wrong, if you add +1 it should work. ex: 42439954653511680 -> 42439954653511681)
+string inviteCode = ""; //Place the invite code here (just the end part). (If planet is Discoverable, this is not required.)
 
 
 
