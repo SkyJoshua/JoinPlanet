@@ -26,8 +26,8 @@ Console.WriteLine($"Logged in as {client.Me.Name} (ID: {client.Me.Id})");
 
 
 
-var planetId = 000000000000000; //Put your planet id here
-var inviteCode = ""; //Put an invite code here.
+long planetId = 000000000000000; //Put your planet id here
+string inviteCode = ""; //Put an invite code here.
 
 try
 {
