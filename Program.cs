@@ -1,4 +1,7 @@
 ﻿using Valour.Sdk.Client;
+using DotNetEnv;
+
+Env.Load();
 
 var token = Environment.GetEnvironmentVariable("TOKEN");
 if (string.IsNullOrWhiteSpace(token))
@@ -29,6 +32,8 @@ Console.WriteLine($"Logged in as {client.Me.Name} (ID: {client.Me.Id})");
 long planetId = 000000000000000; //Put your planet id here
 string inviteCode = ""; //Put an invite code here.
 
+
+
 try
 {
 
@@ -36,6 +41,7 @@ try
     if (!joinResult.Success)
     {
         Console.WriteLine($"Failed to join planet: {joinResult.Message}");
+        return;
     }
 
     Console.WriteLine($"Successfullly joined Planet.");
