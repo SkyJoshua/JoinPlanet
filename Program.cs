@@ -6,7 +6,7 @@ Env.Load();
 var token = Environment.GetEnvironmentVariable("TOKEN");
 if (string.IsNullOrWhiteSpace(token))
 {
-    Console.WriteLine("TOKEN is not set in the environment variables");
+    Console.WriteLine("TOKEN is not set in the .env - Make sure its labeled .env and not something.env");
     return;
 }
 
